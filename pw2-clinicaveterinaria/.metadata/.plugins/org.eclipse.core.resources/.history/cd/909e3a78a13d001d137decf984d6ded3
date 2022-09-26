@@ -1,0 +1,22 @@
+package entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Cliente {
+	@Getter
+	@Setter
+	private int idtutor;
+	@Getter
+	@Setter
+	private String nome_tutor;
+	@Getter
+	@Setter
+	private String celular_tutor;
+	@Getter
+	@Setter
+	private String cpf_tutor;
+
+}

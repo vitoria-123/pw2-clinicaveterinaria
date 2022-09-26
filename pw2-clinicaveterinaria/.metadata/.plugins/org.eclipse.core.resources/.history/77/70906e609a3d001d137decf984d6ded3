@@ -1,0 +1,28 @@
+package entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Animal {
+	
+	@Getter
+	@Setter
+	private int idanimal;
+	@Getter
+	@Setter
+	private String nome_animal;
+	@Getter
+	@Setter
+	private String tipo;
+	@Getter
+	@Setter
+	private String raca_animal;
+	@Getter
+	@Setter
+	private int peso;
+	@Getter
+	@Setter
+	private int dono;
+}

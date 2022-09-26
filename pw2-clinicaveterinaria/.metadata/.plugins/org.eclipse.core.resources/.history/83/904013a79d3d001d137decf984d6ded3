@@ -1,0 +1,30 @@
+package entity;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+//@name=PW2_CLINICAVETERINARIA
+public class Animal {
+	
+	@Getter
+	@Setter
+	private int idanimal;
+	@Getter
+	@Setter
+	private String nome_animal;
+	@Getter
+	@Setter
+	private String tipo;
+	@Getter
+	@Setter
+	private String raca_animal;
+	@Getter
+	@Setter
+	private float peso;
+	@Getter
+	@Setter
+	//@
+	private int dono;
+}
